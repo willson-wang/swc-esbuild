@@ -1,0 +1,28 @@
+.content {
+  font-weight: 700;
+}
+
+.content div:first-of-type {
+  width: 100px;
+  height: 200px;
+  background-color: pink;
+  display: inline-block;
+  color: #000;
+}
+
+.content div:last-of-type {
+  width: 275px;
+  height: 200px;
+  background-color: gray;
+  display: inline-block;
+  color: #333;
+}
+
+.photo {
+  width: 150px;
+  height: 150px;
+}
+
+img {
+  width: 50px;
+}
