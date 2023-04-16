@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "description": "a react project build by webpack",
+  "homepage": "https://willson-wang.github.io/swc-esbuild",
   "scripts": {
     "build": "rm -rf dist && webpack -c ./config/webpack.config.js",
     "build:swc": "rm -rf dist && cross-env TRANSFORM=swc MINI=swc webpack -c ./config/webpack.config.js",
