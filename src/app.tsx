@@ -12,7 +12,7 @@ const render = () => {
   const rootElement = document.getElementById('app');
   const App: React.FC = () => (
     // @ts-ignore
-    <Router>
+    <Router basename='/swc-esbuild/'>
       <Switch>
         {routes.map((route, i) => (
           <RouteWithSubRoutes key={i} {...route} />
