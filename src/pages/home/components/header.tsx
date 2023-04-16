@@ -8,7 +8,7 @@ import './header.css';
 function Header(): JSX.Element {
   return (
     <div className={headerStyle.wrap} style={{ alignContent: 'left' }}>
-      <p className={headerCssStyle.title}>demo header</p>
+      <p className={headerCssStyle.title}>React demo header</p>
       <div className='content'>
         <div>左侧导航</div>
         <div>右边内容</div>

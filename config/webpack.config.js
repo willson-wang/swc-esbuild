@@ -105,7 +105,7 @@ module.exports = {
     path: path.join(__dirname, '../dist'),
     filename: 'js/[name].[chunkhash].js',
     chunkFilename: 'chunk/[name].[chunkhash].js',
-    publicPath: '/'
+    publicPath: './'
   },
   resolve: {
     symlinks: true,

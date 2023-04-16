@@ -61,7 +61,7 @@ react + typescript + webpack5 + less + swc + esbuild
  
 git clone git@github.com:willson-wang/swc-esbuild.git
  
-### 安装依赖（如果生成初始化项目时已经安装完毕，无需安装）
+### 安装依赖
  
 pnpm install
  
